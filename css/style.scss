@@ -1,0 +1,43 @@
+body{
+    background-color: #B09E99;
+}
+
+.app{
+    background-color: #D8CFCC;
+    padding: 1rem;
+    width: 70vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    #randomQuote{
+        color: white;
+        background-color: #64B6AC;
+        border: none;
+        margin: 0;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin: 0 auto;
+        &:hover{
+            color: #333333;
+            cursor: pointer;
+            background-color: #B09E99;
+        }
+    }
+    .quoteDetails{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        .quote{
+            font-size: 2rem;
+            text-align: justify; 
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .author{
+        color: #64B6AC ;
+        left: 100%;
+        align-self: flex-end;
+    }
+}
